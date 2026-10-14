@@ -18,7 +18,7 @@ int main(void) {
 
     // Tjek om beløbet er gyldigt
     if (amount < 0 || amount % 10 != 0) {
-        printf("Ugyldigt beloeb!\n");
+        printf("Ugyldigt!\n");
         return 1;
     }
 
