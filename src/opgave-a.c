@@ -3,8 +3,7 @@
 void hours_minutes_seconds(int total_seconds, int *hours, int *minutes, int *seconds);
 
 int main(void) {
-    int total_seconds;
-    int hours, minutes, seconds;
+    int total_seconds, hours, minutes, seconds;
 
     // Indlæs antal sekunder
     printf("Indtast antal sekunder: ");
