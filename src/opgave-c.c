@@ -21,6 +21,7 @@ int main(void) {
         printf("Ugyldigt!\n");
         return 1;
     }
+    //bruger return 1 fordi det afslutter main med en fejlkode.
 
     // Kald funktionen og gem resultaterne
     calculate_bills(amount, &hundreds, &fifties, &twenties, &tens);
